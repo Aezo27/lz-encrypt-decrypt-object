@@ -1,5 +1,5 @@
 {
-  "name": "@lutfi-zain/lz-encrypt-decrypt-object",
+  "name": "lz-encrypt-decrypt-object",
   "version": "1.0.5",
   "description": "`lz-encrypt-decrypt-object` is a TypeScript library for encrypting and decrypting fields within deeply nested objects using AES encryption.",
   "main": "dist/index.js",
@@ -12,9 +12,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lutfi-zain/lz-encrypt-decrypt-object.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "author": "Lutfi Zain",
   "license": "MIT",
