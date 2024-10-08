@@ -55,6 +55,7 @@ const processFields = (
         obj: EncryptableObject,
         actionFunc: (value: any, secretKey: string) => any
     ): void => {
+        if (!obj) return;
         Object.keys(obj).forEach((key) => {
             if (fieldsToProcessNoMatterWhere.includes(key)) {
                 obj[key] = actionFunc(obj[key], secretKey);
